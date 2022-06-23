@@ -31,7 +31,7 @@ function onCapture(id: string) {
   const el = document.getElementById(id);
   if (el) {
     htmlToImage.toPng(el).then(function (dataUrl) {
-      saveAs(dataUrl, "remix-profile-pic.png");
+      saveAs(dataUrl, "p21live-profile-pic.png");
     });
   }
 }
